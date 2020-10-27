@@ -1,0 +1,1 @@
+ALTER TABLE `characters` ADD `skinPed` VARCHAR(150) NULL DEFAULT NULL;
