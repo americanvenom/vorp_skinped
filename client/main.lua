@@ -1,7 +1,6 @@
 
 RegisterCommand('saveskinPed',function(source,args)
     local modelo = args[1]
-    print(modelo)
     if modelo == nil then
         TriggerEvent("vorp:TipBottom", "~COLOR_RED~ERROR~q~: Usa /loadskinPed [skin/ped]", 5000)
     else
